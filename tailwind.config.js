@@ -11,6 +11,9 @@ module.exports = {
         disabledGreen: "#98E4E0",
         teal: "#AFF1EE",
         brown: "#EBB376",
+        purple: " #5A2D91",
+        lightPurple: "#AD66A9",
+        
       },
     },
   },
