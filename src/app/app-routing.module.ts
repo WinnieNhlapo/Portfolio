@@ -7,7 +7,7 @@ import { AboutmeComponent } from './components/aboutme/aboutme.component';
 
 const routes: Routes = [
   {path:'nav',component:NavBarComponent},
-  {path:'',component:ContentComponent},
+  {path:'home',component:ContentComponent},
   {path:'about',component:AboutmeComponent}
 ];
 
