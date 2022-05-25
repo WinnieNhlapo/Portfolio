@@ -20,6 +20,7 @@
         height: 25rem;
         /* object-fit: cover; */
         border-radius: 20px;
+        background-color:#EFEFEF;
     }
  
 }
