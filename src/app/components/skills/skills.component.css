@@ -1,4 +1,4 @@
-.carousel-item{
+/* .carousel-item{
     max-width: 300px;
     width: 100%;
     border-radius: 50px;
@@ -18,7 +18,7 @@
     .about-img{
         width: 100%;
         height: 25rem;
-        /* object-fit: cover; */
+        
         border-radius: 20px;
         background-color:#EFEFEF;
     }
@@ -43,4 +43,285 @@
     text-transform: capitalize;
     font-weight: 300;
     margin-bottom: 100px;
-}
+} */
+
+/* SKILLS */
+
+/* 
+.skill-section{
+    border-top: 2px solid #fff ;
+     position: relative;
+     height: 100vh;
+     width: 100%;
+     background-color:#112B3C;
+ }
+ 
+ .heading{
+     text-align: center;
+     font-size: 60px;
+     color: #EFEFEF;
+     text-transform: capitalize;
+     font-weight: 300;
+     margin-bottom: 100px;
+ }
+ 
+   .container {
+     position: relative;
+     width: 320px;
+     margin: 100px auto 0 auto;
+     perspective: 1000px;
+   }
+   
+   .carousel {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     transform-style: preserve-3d; 
+     animation: rotate360 60s infinite forwards linear;
+   }
+   .carousel__face { 
+     position: absolute;
+     width: 300px;
+     height: 187px;
+     top: 20px;
+     left: 10px;
+     right: 10px;
+     background-size: cover;
+     display: flex;
+   }
+   
+   span {
+     margin: auto;
+     font-size: 2rem;
+   }
+   
+   .carousel__face:nth-child(1) {
+     background-image: url("../../../assets/pics/skills/c++2.png");
+     transform: rotateY(  0deg) translateZ(430px); 
+     background-size:   300px 187px;}
+   .carousel__face:nth-child(2) { 
+     background-image: url("../../../assets/pics/skills/gitlab.jpeg");
+       transform: rotateY( 40deg) translateZ(430px);
+       background-size:   300px 187px; }
+   .carousel__face:nth-child(3) {
+     background-image: url("../../../assets/pics/skills/gitlab.jpeg");
+     transform: rotateY( 80deg) translateZ(430px); 
+     background-size:   300px 187px;}
+   .carousel__face:nth-child(4) {
+     background-image: url("../../../assets/pics/skills/cssl.png");
+     transform: rotateY(120deg) translateZ(430px);
+     background-size:   300px 187px; }
+   .carousel__face:nth-child(5) { 
+     background-image: url("../../../assets/pics/skills/angular1.png");
+    transform: rotateY(160deg) translateZ(430px); 
+    background-size:   300px 187px;}
+   .carousel__face:nth-child(6) { 
+     background-image: url("../../../assets/pics/skills/NEST.jpeg");
+    transform: rotateY(200deg) translateZ(430px); 
+    background-size:   300px 187px;}
+   .carousel__face:nth-child(7) { 
+     background-image: url("../../../assets/pics/skills/postgres.png");
+    transform: rotateY(240deg) translateZ(430px); 
+    background-size:   300px 187px;}
+   .carousel__face:nth-child(8) {
+     background-image: url("../../../assets/pics/skills/SQLP.png");
+     transform: rotateY(280deg) translateZ(430px);
+     background-size:   300px 187px; }
+   
+   
+   
+   
+   @keyframes rotate360 {
+     from {
+       transform: rotateY(0deg);
+     }
+     to {
+       transform: rotateY(-360deg);
+     }
+   }
+   
+   @media screen and (max-width:500px) {
+     .carousel__face { 
+       width: 200px;
+       height: 187px;
+     }
+ 
+     .carousel__face:nth-child(1) {
+        background-image: url("../../../assets/pics/skills/c++2.png");
+       transform: rotateY(  0deg) translateZ(300px); 
+       background-size:  200px 187px;
+     }
+     .carousel__face:nth-child(2) { 
+        background-image: url("../../../assets/pics/skills/gitlab.jpeg");
+         transform: rotateY( 40deg) translateZ(300px); 
+         background-size:  200px 187px;}
+     .carousel__face:nth-child(3) {
+        background-image: url("../../../assets/pics/skills/gitlab.jpeg");
+       transform: rotateY( 80deg) translateZ(300px);
+       background-size:  200px 187px;
+      }
+     .carousel__face:nth-child(4) {
+        background-image: url("../../../assets/pics/skills/cssl.png");
+       transform: rotateY(120deg) translateZ(300px); 
+       background-size:  200px 187px;}
+     .carousel__face:nth-child(5) { 
+        background-image: url("../../../assets/pics/skills/angular1.png");
+      transform: rotateY(160deg) translateZ(300px); 
+      background-size:  200px 187px;}
+     .carousel__face:nth-child(6) { 
+        background-image: url("../../../assets/pics/skills/NEST.jpeg");
+      transform: rotateY(200deg) translateZ(300px);
+      background-size: 200px 187px; }
+     .carousel__face:nth-child(7) { 
+        background-image: url("../../../assets/pics/skills/postgres.png");
+      transform: rotateY(240deg) translateZ(300px);
+      background-size:  200px 187px; }
+     .carousel__face:nth-child(8) {
+        background-image: url("../../../assets/pics/skills/SQLP.png");
+       transform: rotateY(280deg) translateZ(300px); 
+       background-size:  200px 187px;}
+    
+   } */
+
+
+
+.skill-section{
+    border-top: 2px solid #fff ;
+     position: relative;
+     height: 100vh;
+     width: 100%;
+     background-color:#112B3C;
+ }
+ 
+ .heading{
+     text-align: center;
+     font-size: 60px;
+     color: #EFEFEF;
+     text-transform: capitalize;
+     font-weight: 300;
+     margin-bottom: 100px;
+ }
+ 
+   .container {
+     position: relative;
+     width: 320px;
+     margin: 100px auto 0 auto;
+     perspective: 1000px;
+   }
+   
+   .carousel {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     transform-style: preserve-3d; 
+     animation: rotate360 60s infinite forwards linear;
+   }
+   .carousel__face { 
+     position: absolute;
+     width: 300px;
+     height: 187px;
+     top: 20px;
+     left: 10px;
+     right: 10px;
+     background-size: cover;
+     display: flex;
+   }
+   
+   span {
+     margin: auto;
+     font-size: 2rem;
+   }
+   
+   .carousel__face:nth-child(1) {
+     background-image: url("../../../assets/pics/skills/c++2.png");
+     transform: rotateY(  0deg) translateZ(430px); 
+     background-size:   300px 187px;}
+   .carousel__face:nth-child(2) { 
+     background-image: url("../../../assets/pics/skills/gitlab.jpeg");
+       transform: rotateY( 40deg) translateZ(430px);
+       background-size:   300px 187px; }
+   .carousel__face:nth-child(3) {
+     background-image: url("../../../assets/pics/skills/gitlab.jpeg");
+     transform: rotateY( 80deg) translateZ(430px); 
+     background-size:   300px 187px;}
+   .carousel__face:nth-child(4) {
+     background-image: url("../../../assets/pics/skills/cssl.png");
+     transform: rotateY(120deg) translateZ(430px);
+     background-size:   300px 187px; }
+   .carousel__face:nth-child(5) { 
+     background-image: url("../../../assets/pics/skills/NEST.jpeg");
+    transform: rotateY(160deg) translateZ(430px); 
+    background-size:   300px 187px;}
+   .carousel__face:nth-child(6) { 
+     background-image: url("../../../assets/pics/skills/NEST.jpeg");
+    transform: rotateY(200deg) translateZ(430px); 
+    background-size:   300px 187px;}
+   .carousel__face:nth-child(7) { 
+     background-image: url("../../../assets/pics/skills/NEST.jpeg");
+    transform: rotateY(240deg) translateZ(430px); 
+    background-size:   300px 187px;}
+   .carousel__face:nth-child(8) {
+     background-image: url("../../../assets/pics/skills/NEST.jpeg");
+     transform: rotateY(280deg) translateZ(430px);
+     background-size:   300px 187px; }
+   .carousel__face:nth-child(9) {
+     background-image: url("../../../assets/pics/skills/NEST.jpeg");
+     transform: rotateY(320deg) translateZ(430px); 
+     background-size:   300px 187px;}
+   
+   
+   
+   @keyframes rotate360 {
+     from {
+       transform: rotateY(0deg);
+     }
+     to {
+       transform: rotateY(-360deg);
+     }
+   }
+   
+   @media screen and (max-width:500px) {
+     .carousel__face { 
+       width: 200px;
+       height: 187px;
+     }
+ 
+     .carousel__face:nth-child(1) {
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+       transform: rotateY(  0deg) translateZ(300px); 
+       background-size:  200px 187px;
+     }
+     .carousel__face:nth-child(2) { 
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+         transform: rotateY( 40deg) translateZ(300px); 
+         background-size:  200px 187px;}
+     .carousel__face:nth-child(3) {
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+       transform: rotateY( 80deg) translateZ(300px);
+       background-size:  200px 187px;
+      }
+     .carousel__face:nth-child(4) {
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+       transform: rotateY(120deg) translateZ(300px); 
+       background-size:  200px 187px;}
+     .carousel__face:nth-child(5) { 
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+      transform: rotateY(160deg) translateZ(300px); 
+      background-size:  200px 187px;}
+     .carousel__face:nth-child(6) { 
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+      transform: rotateY(200deg) translateZ(300px);
+      background-size: 200px 187px; }
+     .carousel__face:nth-child(7) { 
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+      transform: rotateY(240deg) translateZ(300px);
+      background-size:  200px 187px; }
+     .carousel__face:nth-child(8) {
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+       transform: rotateY(280deg) translateZ(300px); 
+       background-size:  200px 187px;}
+     .carousel__face:nth-child(9) {
+       background-image: url("../../../assets/pics/skills/NEST.jpeg");
+       transform: rotateY(320deg) translateZ(300px); 
+       background-size:  200px 187px;}
+   }
